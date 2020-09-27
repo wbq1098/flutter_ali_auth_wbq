@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2a17102a-f0a5-42e7-bfc1-1aafcc780c14" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/android/src/main/res/drawable-xxhdpi/slogan.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/res/drawable-xxhdpi/slogan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/res/layout/custom_slogan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/res/layout/custom_slogan.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/android/src/main/java/com/jokui/rao/auth/ali_auth/AliAuthPlugin.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1hp8gg10sLp9oM9cpCn1lupnKCc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../Library/Android/sdk" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$PROJECT_DIR$/../.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a17102a-f0a5-42e7-bfc1-1aafcc780c14" name="Default Changelist" comment="" />
+      <created>1600696785399</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600696785399</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600850249563">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1600850249563" />
+    <state x="577" y="322" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1600849009316">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="577" y="322" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1600849009316" />
+    <state x="672" y="421" width="621" height="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1600850888331">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="672" y="421" width="621" height="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1600850888331" />
+    <state x="378" y="228" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1600850576534">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="378" y="228" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1600850576534" />
+    <state x="457" y="127" key="CommitChangelistDialog2" timestamp="1600850738155">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="457" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1600850738155" />
+    <state x="168" y="94" key="DiffContextDialog" timestamp="1600850735365">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="168" y="94" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1600850735365" />
+    <state width="1638" height="253" key="GridCell.Tab.0.bottom" timestamp="1600849612076">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="253" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1600849612076" />
+    <state width="1638" height="253" key="GridCell.Tab.0.center" timestamp="1600849612075">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="253" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1600849612075" />
+    <state width="1638" height="253" key="GridCell.Tab.0.left" timestamp="1600849612074">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="253" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1600849612074" />
+    <state width="1638" height="253" key="GridCell.Tab.0.right" timestamp="1600849612076">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="253" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1600849612076" />
+    <state x="341" y="164" key="SettingsEditor" timestamp="1600850689392">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1600850689392" />
+    <state x="100" y="100" width="1480" height="850" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1600850396679">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1600850396679" />
+  </component>
+</project>
