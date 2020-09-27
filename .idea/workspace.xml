@@ -9,8 +9,13 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a17102a-f0a5-42e7-bfc1-1aafcc780c14" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+    <list default="true" id="2a17102a-f0a5-42e7-bfc1-1aafcc780c14" name="Default Changelist" comment="升级gradle版本到6.1.1">
+      <change afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,13 +29,16 @@
     <setting file="file://$PROJECT_DIR$/android/src/main/java/com/jokui/rao/auth/ali_auth/AliAuthPlugin.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1hp8gg10sLp9oM9cpCn1lupnKCc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../Library/Android/sdk" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
@@ -85,12 +93,25 @@
       <option name="presentableId" value="Default" />
       <updated>1600696785399</updated>
     </task>
+    <task id="LOCAL-00001" summary="升级gradle版本到6.1.1">
+      <created>1601212440313</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601212440313</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+    <MESSAGE value="升级gradle版本到6.1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="升级gradle版本到6.1.1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600850249563">
@@ -109,10 +130,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="378" y="228" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1600850576534" />
-    <state x="457" y="127" key="CommitChangelistDialog2" timestamp="1600850738155">
+    <state x="457" y="127" key="CommitChangelistDialog2" timestamp="1601212517316">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="457" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1600850738155" />
+    <state x="457" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1601212517316" />
     <state x="168" y="94" key="DiffContextDialog" timestamp="1600850735365">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -137,9 +158,17 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1601212353336" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1601212443851">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1601212443851" />
     <state x="100" y="100" width="1480" height="850" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1600850396679">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="100" y="100" width="1480" height="850" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1600850396679" />
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601212860337">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1680.982@0.23.1680.982" timestamp="1601212860337" />
   </component>
 </project>
