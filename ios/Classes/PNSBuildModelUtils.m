@@ -47,11 +47,11 @@
     model.numberColor = [self colorWithHex:0xFFA346 alpha: 1];
     model.numberFont = [UIFont systemFontOfSize:30.0];
     model.loginBtnText = [[NSAttributedString alloc] initWithString:@"一键登录" attributes:@{NSForegroundColorAttributeName : UIColor.whiteColor,NSFontAttributeName : [UIFont systemFontOfSize:20.0]}];
-    model.loginBtnBgImgs = @[
-      [UIImage imageNamed:@"button"],
-      [UIImage imageNamed:@"button"],
-      [UIImage imageNamed:@"button"]
-    ];
+//    model.loginBtnBgImgs = @[
+//      [UIImage imageNamed:@"button_click"],
+//      [UIImage imageNamed:@"button_unclick"],
+//      [UIImage imageNamed:@"button_click"]
+//    ];
     //model.autoHideLoginLoading = NO;
     // model.privacyOne = @[@"《隐私1》",@"https://www.taobao.com/"];
     //model.privacyTwo = @[@"《隐私2》",@"https://www.taobao.com/"];
