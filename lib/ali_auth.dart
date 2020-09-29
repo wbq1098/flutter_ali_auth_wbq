@@ -31,10 +31,10 @@ class AliAuthPlugin {
     return await _channel.invokeMethod("init", params);
   }
 
-  // 获取token
-  static Future<dynamic> get getToken async {
-    return await _channel.invokeMethod('getToken');
-  }
+  // // 获取token
+  // static Future<dynamic> get getToken async {
+  //   return await _channel.invokeMethod('getToken');
+  // }
 
 
   /// SDK判断网络环境是否支持

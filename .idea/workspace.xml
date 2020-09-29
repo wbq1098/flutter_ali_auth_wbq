@@ -9,13 +9,10 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a17102a-f0a5-42e7-bfc1-1aafcc780c14" name="Default Changelist" comment="升级gradle版本到6.1.1">
-      <change afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+    <list default="true" id="2a17102a-f0a5-42e7-bfc1-1aafcc780c14" name="Default Changelist" comment="回滚gradle版本到5.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/AliAuthPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/AliAuthPlugin.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ali_auth.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ali_auth.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,8 +97,28 @@
       <option name="project" value="LOCAL" />
       <updated>1601212440313</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="回滚gradle版本到5.">
+      <created>1601213223638</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601213223638</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -111,29 +128,34 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="升级gradle版本到6.1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="升级gradle版本到6.1.1" />
+    <MESSAGE value="回滚gradle版本到5." />
+    <option name="LAST_COMMIT_MESSAGE" value="回滚gradle版本到5." />
   </component>
   <component name="WindowStateProjectService">
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600850249563">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1600850249563" />
+    <state x="539" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601254540838">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="539" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1601254540838" />
     <state x="577" y="322" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1600849009316">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="577" y="322" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1600849009316" />
-    <state x="672" y="421" width="621" height="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1600850888331">
+    <state x="672" y="421" width="621" height="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1601254373915">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="672" y="421" width="621" height="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1600850888331" />
+    <state x="672" y="421" width="621" height="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1601254373915" />
     <state x="378" y="228" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1600850576534">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="378" y="228" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1600850576534" />
-    <state x="457" y="127" key="CommitChangelistDialog2" timestamp="1601212517316">
+    <state x="609" y="165" key="CommitChangelistDialog2" timestamp="1601213270291">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="457" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1601212517316" />
+    <state x="609" y="165" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1601213270291" />
     <state x="168" y="94" key="DiffContextDialog" timestamp="1600850735365">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -158,10 +180,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1601212353336" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1601212443851">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1601213285830">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1601212443851" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1601213285830" />
     <state x="100" y="100" width="1480" height="850" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1600850396679">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -170,5 +192,9 @@
       <screen x="0" y="23" width="1680" height="982" />
     </state>
     <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1680.982@0.23.1680.982" timestamp="1601212860337" />
+    <state x="493" y="281" width="693" height="488" key="find.popup" timestamp="1601340684241">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="493" y="281" width="693" height="488" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1601340684241" />
   </component>
 </project>
