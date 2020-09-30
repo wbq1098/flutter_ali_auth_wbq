@@ -26,7 +26,7 @@
 + (TXCustomModel *)buildFullScreenModel {
     TXCustomModel *model = [[TXCustomModel alloc] init];
     
-  model.navColor = [self colorWithHex:0xffFFA346 alpha: 1]; //UIColor[0xFF3A71FF];
+  model.navColor = [self colorWithHex:0xFFA346 alpha: 1]; //UIColor[0xFF3A71FF];
     model.navTitle = [[NSAttributedString alloc] initWithString:@"一键登录" attributes:@{NSForegroundColorAttributeName : UIColor.whiteColor,NSFontAttributeName : [UIFont systemFontOfSize:20.0]}];
     //model.navIsHidden = NO;
     model.navBackImage = [UIImage imageNamed:@"icon_nav_back_light"];

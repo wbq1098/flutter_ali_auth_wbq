@@ -142,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601345633104</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="适配一键登录ios界面显示效果">
+      <created>1601346035089</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601346035089</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,10 +199,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="378" y="228" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1600850576534" />
-    <state x="761" y="87" key="CommitChangelistDialog2" timestamp="1601345633011">
+    <state x="761" y="87" key="CommitChangelistDialog2" timestamp="1601346034973">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="761" y="87" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1601345633011" />
+    <state x="761" y="87" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1601346034973" />
     <state x="168" y="94" key="DiffContextDialog" timestamp="1601340842387">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -220,10 +227,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1601212353336" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1601345635104">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1601346040671">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1601345635104" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1601346040671" />
     <state x="100" y="100" width="1480" height="850" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1600850396679">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -236,9 +243,9 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="620" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1601342265953" />
-    <state x="493" y="281" width="693" height="488" key="find.popup" timestamp="1601346002038">
+    <state x="493" y="281" width="693" height="488" key="find.popup" timestamp="1601476178852">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="493" y="281" width="693" height="488" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1601346002038" />
+    <state x="493" y="281" width="693" height="488" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1601476178852" />
   </component>
 </project>

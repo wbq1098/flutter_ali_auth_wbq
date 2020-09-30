@@ -260,7 +260,7 @@
                 NSDictionary *dict = @{
                     @"returnCode": code,
                     @"returnMsg" : [resultDic objectForKey:@"msg"],
-                    @"returnData" : [resultDic objectForKey:@"token"]?:@""
+                    @"token" : [resultDic objectForKey:@"token"]?:@""
                 };
                 result(dict);
                 return ;
@@ -292,7 +292,7 @@
                 NSDictionary *dict = @{
                     @"returnCode": code,
                     @"returnMsg" : [resultDic objectForKey:@"msg"],
-                    @"returnData" : [resultDic objectForKey:@"token"]?:@""
+                    @"token" : [resultDic objectForKey:@"token"]?:@""
                 };
                 result(dict);
                 return ;
@@ -315,14 +315,14 @@
                     NSDictionary *dict = @{
                         @"returnCode": code,
                         @"returnMsg" : [resultDic objectForKey:@"msg"],
-                        @"returnData" : [resultDic objectForKey:@"token"]?:@""
+                        @"token" : [resultDic objectForKey:@"token"]?:@""
                     };
                     result(dict);
                 } else if ([PNSCodeLoginControllerClickCancel isEqualToString:code]) {
                     NSDictionary *dict = @{
                         @"returnCode": code,
                         @"returnMsg" : [resultDic objectForKey:@"msg"],
-                        @"returnData" : [resultDic objectForKey:@"token"]?:@""
+                        @"token" : [resultDic objectForKey:@"token"]?:@""
                     };
                     result(dict);
                 }
