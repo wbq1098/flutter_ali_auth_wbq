@@ -156,7 +156,7 @@
     // model.sloganText = [[NSAttributedString alloc] initWithString:@"一键登录slogan文案" attributes:@{NSForegroundColorAttributeName : UIColor.orangeColor,NSFontAttributeName : [UIFont systemFontOfSize:16.0]}];
     model.numberColor = [self colorWithHex:0xFFA346 alpha: 1];
     model.numberFont = [UIFont systemFontOfSize:30.0];
-    model.loginBtnText = [[NSAttributedString alloc] initWithString:@"一键登录111" attributes:@{NSForegroundColorAttributeName : UIColor.whiteColor, NSFontAttributeName : [UIFont systemFontOfSize:20.0]}];
+    model.loginBtnText = [[NSAttributedString alloc] initWithString:@"一键登录" attributes:@{NSForegroundColorAttributeName : UIColor.whiteColor, NSFontAttributeName : [UIFont systemFontOfSize:20.0]}];
 //    model.loginBtnBgImgs = @[
 //      [UIImage imageNamed:@"button_click"],
 //      [UIImage imageNamed:@"button_unclick"],
