@@ -30,23 +30,24 @@
     model.navTitle = [[NSAttributedString alloc] initWithString:@"一键登录" attributes:@{NSForegroundColorAttributeName : UIColor.whiteColor,NSFontAttributeName : [UIFont systemFontOfSize:20.0]}];
     //model.navIsHidden = NO;
     model.navBackImage = [UIImage imageNamed:@"icon_nav_back_light"];
-    //model.hideNavBackItem = NO;
-    UIButton *rightBtn = [UIButton buttonWithType:UIButtonTypeSystem];
+    model.hideNavBackItem = NO;
+    //UIButton *rightBtn = [UIButton buttonWithType:UIButtonTypeSystem];
     // [rightBtn setTitle:@"更多" forState:UIControlStateNormal];
-    model.navMoreView = rightBtn;
+    //model.navMoreView = rightBtn;
     
     model.privacyNavColor = [self colorWithHex:0xFFA346 alpha: 1];
     model.privacyNavBackImage = [UIImage imageNamed:@"icon_nav_back_light"];
     model.privacyNavTitleFont = [UIFont systemFontOfSize:20.0];
     model.privacyNavTitleColor = UIColor.whiteColor;
     
-    model.logoImage = [UIImage imageNamed:@"logo"];
+    model.logoImage = [UIImage imageNamed:@"slogan"];
     model.logoIsHidden = NO;
     //model.sloganIsHidden = NO;
     // model.sloganText = [[NSAttributedString alloc] initWithString:@"一键登录slogan文案" attributes:@{NSForegroundColorAttributeName : UIColor.orangeColor,NSFontAttributeName : [UIFont systemFontOfSize:16.0]}];
     model.numberColor = [self colorWithHex:0xFFA346 alpha: 1];
     model.numberFont = [UIFont systemFontOfSize:30.0];
     model.loginBtnText = [[NSAttributedString alloc] initWithString:@"一键登录" attributes:@{NSForegroundColorAttributeName : UIColor.whiteColor,NSFontAttributeName : [UIFont systemFontOfSize:20.0]}];
+    model.loginBtnBgImgs = [UIImage imageNamed:@"button"];
 //    model.loginBtnBgImgs = @[
 //      [UIImage imageNamed:@"button_click"],
 //      [UIImage imageNamed:@"button_unclick"],

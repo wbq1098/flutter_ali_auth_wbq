@@ -9,9 +9,11 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a17102a-f0a5-42e7-bfc1-1aafcc780c14" name="Default Changelist" comment="">
+    <list default="true" id="2a17102a-f0a5-42e7-bfc1-1aafcc780c14" name="Default Changelist" comment="ios返回token">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Classes/PNSBuildModelUtils.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/PNSBuildModelUtils.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/button.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Assets/ATAuthSDK.bundle/button.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/slogan.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Assets/ATAuthSDK.bundle/slogan.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601346035089</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ios返回token">
+      <created>1601476206999</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1601476206999</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,7 +185,8 @@
     <MESSAGE value="回滚gradle版本到5." />
     <MESSAGE value="关闭getToken方法" />
     <MESSAGE value="适配一键登录ios界面显示效果" />
-    <option name="LAST_COMMIT_MESSAGE" value="适配一键登录ios界面显示效果" />
+    <MESSAGE value="ios返回token" />
+    <option name="LAST_COMMIT_MESSAGE" value="ios返回token" />
   </component>
   <component name="WindowStateProjectService">
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600850249563">
@@ -199,14 +209,14 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="378" y="228" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1600850576534" />
-    <state x="761" y="87" key="CommitChangelistDialog2" timestamp="1601346034973">
+    <state x="761" y="87" key="CommitChangelistDialog2" timestamp="1601478154109">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="761" y="87" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1601346034973" />
-    <state x="168" y="94" key="DiffContextDialog" timestamp="1601340842387">
+    <state x="761" y="87" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1601478154109" />
+    <state x="168" y="94" key="DiffContextDialog" timestamp="1601476203522">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="168" y="94" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1601340842387" />
+    <state x="168" y="94" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1601476203522" />
     <state width="1638" height="253" key="GridCell.Tab.0.bottom" timestamp="1600849612076">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -227,10 +237,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1601212353336" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1601346040671">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1601476208655">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1601346040671" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1601476208655" />
     <state x="100" y="100" width="1480" height="850" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1600850396679">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -243,9 +253,9 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="620" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1601342265953" />
-    <state x="493" y="281" width="693" height="488" key="find.popup" timestamp="1601476178852">
+    <state x="493" y="281" width="693" height="488" key="find.popup" timestamp="1601476711974">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="493" y="281" width="693" height="488" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1601476178852" />
+    <state x="493" y="281" width="693" height="488" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1601476711974" />
   </component>
 </project>
