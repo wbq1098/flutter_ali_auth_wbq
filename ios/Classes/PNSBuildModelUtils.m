@@ -30,7 +30,7 @@
     model.navTitle = [[NSAttributedString alloc] initWithString:@"一键登录" attributes:@{NSForegroundColorAttributeName : UIColor.whiteColor,NSFontAttributeName : [UIFont systemFontOfSize:20.0]}];
     //model.navIsHidden = NO;
     model.navBackImage = [UIImage imageNamed:@"icon_nav_back_light"];
-    model.hideNavBackItem = YES;
+    model.hideNavBackItem = NO;
     //UIButton *rightBtn = [UIButton buttonWithType:UIButtonTypeSystem];
     // [rightBtn setTitle:@"更多" forState:UIControlStateNormal];
     //model.navMoreView = rightBtn;
@@ -41,7 +41,7 @@
     model.privacyNavTitleColor = UIColor.whiteColor;
     
     model.logoImage = [UIImage imageNamed:@"logo"];
-    model.logoIsHidden = YES;
+    model.logoIsHidden = NO;
     //model.sloganIsHidden = NO;
     // model.sloganText = [[NSAttributedString alloc] initWithString:@"一键登录slogan文案" attributes:@{NSForegroundColorAttributeName : UIColor.orangeColor,NSFontAttributeName : [UIFont systemFontOfSize:16.0]}];
     model.numberColor = [self colorWithHex:0xFFA346 alpha: 1];
