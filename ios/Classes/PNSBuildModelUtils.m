@@ -40,7 +40,7 @@
     model.privacyNavTitleFont = [UIFont systemFontOfSize:20.0];
     model.privacyNavTitleColor = UIColor.whiteColor;
     
-    model.logoImage = [UIImage imageNamed:@"slogan"];
+    model.logoImage = [UIImage imageNamed:@"logo"];
     model.logoIsHidden = NO;
     //model.sloganIsHidden = NO;
     // model.sloganText = [[NSAttributedString alloc] initWithString:@"一键登录slogan文案" attributes:@{NSForegroundColorAttributeName : UIColor.orangeColor,NSFontAttributeName : [UIFont systemFontOfSize:16.0]}];
