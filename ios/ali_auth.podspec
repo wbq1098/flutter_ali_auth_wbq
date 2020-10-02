@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = 'libs/ATAuthSDK.framework'
   # 加载静态资源
-  s.resources = ['Assets/*.png']
+  s.resources = ['Assets/*']
 
   s.ios.deployment_target = '8.0'
   # s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
