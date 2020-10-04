@@ -9,7 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a17102a-f0a5-42e7-bfc1-1aafcc780c14" name="Default Changelist" comment="调整一键登录页面">
+    <list default="true" id="2a17102a-f0a5-42e7-bfc1-1aafcc780c14" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -245,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601652397409</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="拷贝example回来">
+      <created>1601788949897</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1601788949897</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,7 +281,8 @@
     <MESSAGE value="适配一键登录ios界面显示效果" />
     <MESSAGE value="ios返回token" />
     <MESSAGE value="调整一键登录页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整一键登录页面" />
+    <MESSAGE value="拷贝example回来" />
+    <option name="LAST_COMMIT_MESSAGE" value="拷贝example回来" />
   </component>
   <component name="WindowStateProjectService">
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600850249563">
@@ -297,10 +305,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="378" y="228" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1600850576534" />
-    <state x="713" y="87" key="CommitChangelistDialog2" timestamp="1601652397310">
+    <state x="713" y="87" key="CommitChangelistDialog2" timestamp="1601788949629">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="713" y="87" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1601652397310" />
+    <state x="713" y="87" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1601788949629" />
     <state x="168" y="94" key="DiffContextDialog" timestamp="1601647191221">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -329,10 +337,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1601212353336" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1601652398857">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1601788958548">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1601652398857" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1601788958548" />
     <state x="100" y="100" width="1480" height="850" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1600850396679">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
