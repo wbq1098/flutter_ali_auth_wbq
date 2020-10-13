@@ -1,8 +1,8 @@
-name: ali_auth
-description: A new flutter plugin project.
-version: 0.0.3
-author: raohong201314@gmail.com
-homepage: https://github.com/CodeGather/flutter_ali_auth
+name: ali_auth_wbq
+description: ali_auth changed by wangbaoquan.
+version: 0.0.4
+author: wbq1098@163.com
+homepage: https://github.com/wbq1098/flutter_ali_auth_wbq.git
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
