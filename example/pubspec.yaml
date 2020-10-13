@@ -17,7 +17,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  ali_auth:
+  ali_auth_wbq:
     path: ../
 
 # For information on the generic Dart part of this file, see the
