@@ -128,13 +128,13 @@
       "languageVersion": "2.10"
     },
     {
-      "name": "ali_auth",
+      "name": "ali_auth_wbq",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     }
   ],
-  "generated": "2020-10-13T02:52:29.188891Z",
+  "generated": "2020-10-13T05:30:20.344926Z",
   "generator": "pub",
   "generatorVersion": "2.10.1"
 }

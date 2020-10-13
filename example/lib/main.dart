@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ali_auth/ali_auth.dart';
 import 'home.dart';
+import 'package:ali_auth_wbq/ali_auth.dart';
 import 'dart:io';
 
 void main() => runApp(MaterialApp(home: MyApp()));
