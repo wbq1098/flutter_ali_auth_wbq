@@ -1,11 +1,12 @@
 name: ali_auth_wbq
 description: ali_auth changed by wangbaoquan.
 version: 0.0.4
-author: wbq1098@163.com
+#author: wbq1098@163.com
 homepage: https://github.com/wbq1098/flutter_ali_auth_wbq.git
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
+  flutter: ^1.10.0
 
 dependencies:
   flutter:
@@ -25,8 +26,14 @@ flutter:
   # be modified. They are used by the tooling to maintain consistency when
   # adding or updating assets for this project.
   plugin:
-    androidPackage: com.jokui.rao.auth.ali_auth
-    pluginClass: AliAuthPlugin
+    platforms:
+      android:
+        package: com.jokui.rao.auth.ali_auth
+        pluginClass: AliAuthPlugin
+      ios:
+        pluginClass: AliAuthPlugin
+#    androidPackage: com.jokui.rao.auth.ali_auth
+#    pluginClass: AliAuthPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
