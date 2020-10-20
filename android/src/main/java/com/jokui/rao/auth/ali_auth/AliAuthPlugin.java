@@ -9,6 +9,7 @@
 package com.jokui.rao.auth.ali_auth;
 
 import androidx.annotation.NonNull;
+
 import io.flutter.embedding.engine.plugins.FlutterPlugin;
 import io.flutter.embedding.engine.plugins.activity.ActivityAware;
 import io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding;
@@ -46,7 +47,9 @@ import com.mobile.auth.gatewayauth.ui.AbstractPnsViewDelegate;
 
 import static com.jokui.rao.auth.ali_auth.AppUtils.dp2px;
 
-/** AliAuthPlugin */
+/**
+ * AliAuthPlugin
+ */
 public class AliAuthPlugin extends FlutterActivity implements FlutterPlugin, MethodCallHandler, ActivityAware, EventChannel.StreamHandler {
 
     private final String TAG = "MainPortraitActivity";
@@ -95,22 +98,22 @@ public class AliAuthPlugin extends FlutterActivity implements FlutterPlugin, Met
     public void onMethodCall(@NonNull MethodCall call, @NonNull Result result) {
         switch (call.method) {
             case "init":
-                init(call,result);
+                init(call, result);
                 break;
             case "getToken":
-                getToken(call,result);
+                getToken(call, result);
                 break;
             case "preLogin":
-                preLogin(call,result);
+                preLogin(call, result);
                 break;
             case "login":
-                login(call,result);
+                login(call, result);
                 break;
             case "loginDialog":
-                loginDialog(call,result);
+                loginDialog(call, result);
                 break;
             case "checkVerifyEnable":
-                checkVerifyEnable(call,result);
+                checkVerifyEnable(call, result);
                 break;
             default:
                 throw new IllegalArgumentException("Unkown operation" + call.method);
@@ -143,19 +146,18 @@ public class AliAuthPlugin extends FlutterActivity implements FlutterPlugin, Met
 
     @Override
     public void onListen(Object arguments, EventChannel.EventSink events) {
-        Log.d("TAG", "onListen: "+events);
-        if( events != null){
+        Log.d("TAG", "onListen: " + events);
+        if (events != null) {
             _events = events;
         }
     }
 
     @Override
     public void onCancel(Object arguments) {
-        if( _events != null){
+        if (_events != null) {
             _events = null;
         }
     }
-
 
 
     private void init(final MethodCall call, final MethodChannel.Result methodResult) {
@@ -244,11 +246,13 @@ public class AliAuthPlugin extends FlutterActivity implements FlutterPlugin, Met
         preLogin(call, methodResult);
     }
 
-    /** SDK 判断网络环境是否支持 */
+    /**
+     * SDK 判断网络环境是否支持
+     */
     public boolean checkVerifyEnable(MethodCall call, MethodChannel.Result result) {
         // 判断网络是否支持
         boolean checkRet = mAlicomAuthHelper.checkEnvAvailable();
-        if (!checkRet){
+        if (!checkRet) {
             Log.d(TAG, ("当前网络不支持，请检测蜂窝网络后重试"));
         }
 
@@ -256,7 +260,9 @@ public class AliAuthPlugin extends FlutterActivity implements FlutterPlugin, Met
         return checkRet;
     }
 
-    /** SDK设置debug模式 */
+    /**
+     * SDK设置debug模式
+     */
     public void setDebugMode(MethodCall call, MethodChannel.Result result) {
         Object enable = getValueByKey(call, "debug");
         if (enable != null) {
@@ -268,7 +274,9 @@ public class AliAuthPlugin extends FlutterActivity implements FlutterPlugin, Met
         result.success(jsonObject);
     }
 
-    /** SDK 一键登录预取号 */
+    /**
+     * SDK 一键登录预取号
+     */
     public void preLogin(MethodCall call, final MethodChannel.Result result) {
         int timeOut = 5000;
         if (call.hasArgument("timeOut")) {
@@ -306,28 +314,29 @@ public class AliAuthPlugin extends FlutterActivity implements FlutterPlugin, Met
             }
         });
     }
+
     // 正常登录
-    public void login(final MethodCall call, final MethodChannel.Result methodResult){
+    public void login(final MethodCall call, final MethodChannel.Result methodResult) {
         configLoginTokenPort(call, methodResult);
         getAuthListener(call, methodResult);
         mAlicomAuthHelper.getLoginToken(mContext, 5000);
     }
 
     // dialog登录
-    public void loginDialog(final MethodCall call, final MethodChannel.Result methodResult){
+    public void loginDialog(final MethodCall call, final MethodChannel.Result methodResult) {
         configLoginTokenPortDialog();
         getAuthListener(call, methodResult);
         mAlicomAuthHelper.getLoginToken(mContext, 5000);
     }
 
     // 获取登录token
-    public void getToken(final MethodCall call, final MethodChannel.Result methodResult){
+    public void getToken(final MethodCall call, final MethodChannel.Result methodResult) {
         getAuthListener(call, methodResult);
         mAlicomAuthHelper.getVerifyToken(5000);
     }
 
     // 获取监听数据
-    private void getAuthListener(final MethodCall call, final MethodChannel.Result methodResult){
+    private void getAuthListener(final MethodCall call, final MethodChannel.Result methodResult) {
         mAlicomAuthHelper.setAuthListener(new TokenResultListener() {
             @Override
             public void onTokenSuccess(final String ret) {
@@ -353,6 +362,7 @@ public class AliAuthPlugin extends FlutterActivity implements FlutterPlugin, Met
                     }
                 });
             }
+
             @Override
             public void onTokenFailed(final String ret) {
                 activity.runOnUiThread(new Runnable() {
@@ -449,23 +459,25 @@ public class AliAuthPlugin extends FlutterActivity implements FlutterPlugin, Met
 
         // 添加第三方登录按钮
         mAlicomAuthHelper.addAuthRegisterXmlConfig(new AuthRegisterXmlConfig.Builder()
-            .setLayout(R.layout.custom_login, new AbstractPnsViewDelegate() {
-                @Override public void onViewCreated(View view) {
-                    // 左侧按钮布局
-                    findViewById(R.id.login_left).setOnClickListener(new View.OnClickListener() {
-                        @Override public void onClick(View v) {
-                            Log.d(TAG, ("login_left 被点击了"));
-                            JSONObject jsonObject = new JSONObject();
-                            jsonObject.put("returnCode", "2000");
-                            jsonObject.put("returnMsg", "wechat");
-                            jsonObject.put("returnData", null);
-                            //转化成json字符串
-                            _events.success(jsonObject);
-                            mAlicomAuthHelper.quitLoginPage();
-                        }
-                    });
+                .setLayout(R.layout.custom_login, new AbstractPnsViewDelegate() {
+                    @Override
+                    public void onViewCreated(View view) {
+                        // 左侧按钮布局
+                        findViewById(R.id.login_left).setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                Log.d(TAG, ("login_left 被点击了"));
+                                JSONObject jsonObject = new JSONObject();
+                                jsonObject.put("returnCode", "2000");
+                                jsonObject.put("returnMsg", "wechat");
+                                jsonObject.put("returnData", null);
+                                //转化成json字符串
+                                _events.success(jsonObject);
+                                mAlicomAuthHelper.quitLoginPage();
+                            }
+                        });
 
-                    // 右侧按钮布局
+                        // 右侧按钮布局
 //                    findViewById(R.id.login_right).setOnClickListener(new View.OnClickListener() {
 //                        @Override public void onClick(View v) {
 //                            Log.d(TAG, ("login_right 被点击了"));
@@ -478,9 +490,9 @@ public class AliAuthPlugin extends FlutterActivity implements FlutterPlugin, Met
 //                            mAlicomAuthHelper.quitLoginPage();
 //                        }
 //                    });
-                }
-            })
-            .build());
+                    }
+                })
+                .build());
 
 
         // 添加图片
@@ -494,16 +506,17 @@ public class AliAuthPlugin extends FlutterActivity implements FlutterPlugin, Met
 
         // 添加文字布局
         mAlicomAuthHelper.addAuthRegisterXmlConfig(new AuthRegisterXmlConfig.Builder()
-            .setLayout(R.layout.custom_slogan, new AbstractPnsViewDelegate() {
-                @Override public void onViewCreated(View view) {
+                .setLayout(R.layout.custom_slogan, new AbstractPnsViewDelegate() {
+                    @Override
+                    public void onViewCreated(View view) {
 //                    findViewById(R.id.slogan_title).setOnClickListener(new View.OnClickListener() {
 //                        @Override public void onClick(View v) {
 //                            Log.d(TAG, ("slogan 被点击了"));
 //                        }
 //                    });
-                }
-            })
-            .build());
+                    }
+                })
+                .build());
 
         int authPageOrientation = ActivityInfo.SCREEN_ORIENTATION_SENSOR_PORTRAIT;
         if (Build.VERSION.SDK_INT == 26) {
@@ -520,7 +533,7 @@ public class AliAuthPlugin extends FlutterActivity implements FlutterPlugin, Met
                         .setNavHidden(true)
                         .setNavColor(Color.parseColor("#FFA346")) // 导航栏背景色
                         .setNavText("本机号码一键登录") // 导航栏背景色
-                        .setAppPrivacyColor(Color.GRAY, Color.parseColor("#FFA346"))
+                        .setAppPrivacyColor(Color.parseColor("#9B9B9B"), Color.parseColor("#2D8AD1"))
                         // logo设置
                         .setLogoHidden(true)
                         .setLogoImgPath("ic_launcher")
@@ -535,20 +548,20 @@ public class AliAuthPlugin extends FlutterActivity implements FlutterPlugin, Met
                         .setVendorPrivacyPrefix("《")
                         .setVendorPrivacySuffix("》")
                         // 切换到其他登录方式
-                        .setSwitchAccTextColor(Color.parseColor("#3A71FF"))
-                        .setSwitchAccText("使用验证码登录")
+                        .setSwitchAccTextColor(Color.parseColor("#9B9B9B"))
+                        .setSwitchAccText("其他号码登录")
                         .setScreenOrientation(authPageOrientation)
                         // 动画效果
                         .setAuthPageActIn("in_activity", "out_activity")
                         .setAuthPageActOut("in_activity", "out_activity")
                         // 勾选框
-                        .setCheckboxHidden(false)
+                        .setCheckboxHidden(true)
                         // 勾选框后方文字
-                        // .setPrivacyBefore("sadadasda")
+                        .setPrivacyBefore("注册即代表您已同意")
                         .setPrivacyState(false)
                         // .setLogBtnBackgroundPath("slogan")
                         //.setPrivacyBefore("《达理用户协议》")
-//                        .setAppPrivacyOne("《达理用户协议》", "https://www.baidu.com")
+                        .setAppPrivacyOne("《用户协议与隐私政策》", "https://m.10fenkexue.com/appBuy/privacy.html")
 //                        .setAppPrivacyTwo("《达理用户隐私》", "https://www.baidu.com")
                         //.setStatusBarUIFlag(View.SYSTEM_UI_FLAG_LOW_PROFILE) // 沉浸式，需隐藏状态栏否则会出现和状态栏重叠的问题
                         //.setStatusBarUIFlag(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN) // 沉浸式，需隐藏状态栏否则会出现和状态栏重叠的问题
@@ -557,6 +570,7 @@ public class AliAuthPlugin extends FlutterActivity implements FlutterPlugin, Met
                         .create()
         );
     }
+
     // 弹窗授权⻚⾯
     private void configLoginTokenPortDialog() {
         // initDynamicView();
