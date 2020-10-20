@@ -552,8 +552,8 @@ public class AliAuthPlugin extends FlutterActivity implements FlutterPlugin, Met
                         .setSwitchAccText("其他号码登录")
                         .setScreenOrientation(authPageOrientation)
                         // 动画效果
-                        .setAuthPageActIn("in_activity", "out_activity")
-                        .setAuthPageActOut("in_activity", "out_activity")
+//                        .setAuthPageActIn("in_activity", "out_activity")
+//                        .setAuthPageActOut("in_activity", "out_activity")
                         // 勾选框
                         .setCheckboxHidden(true)
                         // 勾选框后方文字

@@ -26,8 +26,8 @@
 + (TXCustomModel *)buildFullScreenModel {
     TXCustomModel *model = [[TXCustomModel alloc] init];
     
-  model.navColor = [self colorWithHex:0xFFA346 alpha: 1]; //UIColor[0xFF3A71FF];
-    model.navTitle = [[NSAttributedString alloc] initWithString:@"一键登录" attributes:@{NSForegroundColorAttributeName : UIColor.whiteColor,NSFontAttributeName : [UIFont systemFontOfSize:20.0]}];
+  model.navColor = [self colorWithHex:0xFFffff alpha: 1]; //UIColor[0xFF3A71FF];
+    model.navTitle = [[NSAttributedString alloc] initWithString:@"" attributes:@{NSForegroundColorAttributeName : UIColor.whiteColor,NSFontAttributeName : [UIFont systemFontOfSize:20.0]}];
     //model.navIsHidden = NO;
     model.navBackImage = [UIImage imageNamed:@"icon_nav_back_light"];
     model.hideNavBackItem = NO;
@@ -35,7 +35,7 @@
     // [rightBtn setTitle:@"更多" forState:UIControlStateNormal];
     //model.navMoreView = rightBtn;
     
-    model.privacyNavColor = [self colorWithHex:0xFFA346 alpha: 1];
+    model.privacyNavColor = [self colorWithHex:0xFFffff alpha: 1];
     model.privacyNavBackImage = [UIImage imageNamed:@"icon_nav_back_light"];
     model.privacyNavTitleFont = [UIFont systemFontOfSize:20.0];
     model.privacyNavTitleColor = UIColor.whiteColor;
@@ -44,21 +44,21 @@
     model.logoIsHidden = NO;
     //model.sloganIsHidden = NO;
     // model.sloganText = [[NSAttributedString alloc] initWithString:@"一键登录slogan文案" attributes:@{NSForegroundColorAttributeName : UIColor.orangeColor,NSFontAttributeName : [UIFont systemFontOfSize:16.0]}];
-    model.numberColor = [self colorWithHex:0xFFA346 alpha: 1];
+    model.numberColor = [self colorWithHex:0x3C4F5E alpha: 1];
     model.numberFont = [UIFont systemFontOfSize:30.0];
-    model.loginBtnText = [[NSAttributedString alloc] initWithString:@"一键登录" attributes:@{NSForegroundColorAttributeName : UIColor.whiteColor,NSFontAttributeName : [UIFont systemFontOfSize:20.0]}];
+    model.loginBtnText = [[NSAttributedString alloc] initWithString:@"本机号码一键登录" attributes:@{NSForegroundColorAttributeName : UIColor.whiteColor,NSFontAttributeName : [UIFont systemFontOfSize:20.0]}];
     model.loginBtnBgImgs = @[
       [UIImage imageNamed:@"button"],
       [UIImage imageNamed:@"button"],
       [UIImage imageNamed:@"button"]
     ];
     //model.autoHideLoginLoading = NO;
-    // model.privacyOne = @[@"《隐私1》",@"https://www.taobao.com/"];
+    model.privacyOne = @[@"《用户协议与隐私政策》",@"https://m.10fenkexue.com/appBuy/privacy.html"];
     //model.privacyTwo = @[@"《隐私2》",@"https://www.taobao.com/"];
-    model.privacyColors = @[UIColor.lightGrayColor, [self colorWithHex:0xFFA346 alpha: 1]];
+    model.privacyColors = @[UIColor[0xFF9B9B9B], [self colorWithHex:0x2D8AD1 alpha: 1]];
     model.privacyAlignment = NSTextAlignmentCenter;
     model.privacyFont = [UIFont fontWithName:@"PingFangSC-Regular" size:10.0];
-    model.privacyPreText = @"点击一键登录并登录表示您已阅读并同意";
+    model.privacyPreText = @"注册即代表您已同意";
     model.privacyOperatorPreText = @"《";
     model.privacyOperatorSufText = @"》";
     // 是否同意
@@ -66,8 +66,8 @@
     model.checkBoxWH = 17.0;
     // model.changeBtnTitle = [[NSAttributedString alloc] init];
     model.changeBtnTitle = [
-       [NSAttributedString alloc] initWithString:@"切换到其他方式"
-       attributes:@{NSForegroundColorAttributeName: UIColor.whiteColor, NSFontAttributeName : [UIFont systemFontOfSize:18.0]}
+       [NSAttributedString alloc] initWithString:@"其他号码登录"
+       attributes:@{NSForegroundColorAttributeName: UIColor[0xFF9B9B9B], NSFontAttributeName : [UIFont systemFontOfSize:18.0]}
     ];
     model.changeBtnIsHidden = YES;
     model.prefersStatusBarHidden = YES;
