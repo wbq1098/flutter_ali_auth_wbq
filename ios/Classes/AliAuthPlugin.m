@@ -325,6 +325,11 @@
                         @"token" : [resultDic objectForKey:@"token"]?:@""
                     };
                     result(dict);
+                } else if ([PNSCodeLoginControllerClickChangeBtn isEqualToString:code]) {
+                     dispatch_async(dispatch_get_main_queue(), ^{
+                         [[TXCommonHandler sharedInstance] cancelLoginVCAnimated:NO complete:nil];
+                     });
+                     result(resultDic);
                 }
                 [weakSelf showResult:resultDic result:result];
             }];
